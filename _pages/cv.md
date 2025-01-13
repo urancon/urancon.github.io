@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Neuroscience, University of Toulouse, 2025 (expected)
+* French Engineering Degree in Electrical Engineering, INSA Lyon, 2021
 
 Work experience
 ======
@@ -35,10 +34,11 @@ Work experience
 Skills
 ======
 * Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
+* Languages
+  * French (Native)
+  * English (Professional)
+  * German, Japanese, Spanish (Conversational)
+  * Korean (Beginner)
 * Skill 3
 
 Publications
@@ -59,6 +59,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

@@ -1,49 +1,62 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Ulysse Rancon - Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+*I am a 3rd year PhD student in computational neuroscience and artificial intelligence.*
+*My research is interdisciplinary and at the frontiers between neuroscience, deep learning, computer science and neuromorphic computing.*
+*I like to take high-level descriptive/quantitative approaches that fit real data well (as deep neural networks usually do), and analyze the latter rather than the other way around.*
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Background :zap:
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Originally from an **electrical engineering** and **signal processing background**, I have always been fascinated by the brain, among other complex systems.
+After a very fruitful experience in an academic research lab at the University of Tokyo which made me discover neuromorphic electronics, I honed my deep learning skills in the industry at Bull. 
+From my Master's thesis on event-based sensors and AI at the **Brain and Cognition Research Center (CERCO)** in **Toulouse**, I went on to do a PhD in computational neuroscience -a position that I'm still holding today.
 
-Create content & metadata
+
+Current Work and Projects :microscope:
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My PhD focuses on using **deep neural networks** trained with backpropagation as **models of the brain**, sensory neurons in particular. 
+Experimenters present **sounds/videos** to live animals implanted with electrodes, and record the simultaneous activity of **single units** in response to these stimuli.
+As a modeller, I feed the latter as inputs to my models and expect them, through training, to output a predicted activity that would resemble as close as possible what has been actually recorded.
+By doing so, one is **replacing** a **real neuron** by an **in-silico model** -an abstraction that we can play with to our liking. For example, it allows us to predict what the response to a new sound would be.
+Furthermore, reverse-engineering accurate and inacurate models could help us unravel how neurons compute.
+Finally, a downstream application potentially enabled by this kind of modeling could be that of **neural prosthetics** for **rehabilitation**.
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Ethics / Animal Experimentation Statement :octopus:
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+I cannot thank enough the electrophysiologists that share their precious and extremely expensive data to the community on public repositories. When we think about it, *everybody is winning: by doing so, they give precious work material to theorists who in turn cite them back.* 
+Most importantly, new **animals don't get to die "unnecessarily"** to get some data that has been already acquired but never shared. 
+Contrary to what one would think, **lots of neurophysiological data is readily available** on websites such as the excellent [CRCNS](www.crcns.org). So let's wonder what quantities are sleeping in local hard drives in labs around the globe.
+In this current **era of deep learning and data-driven approaches**, I am certain that great progress in neuroscience is yet to come, supposing the community shares its fruits and normalizes its practices.
+Let's do it for the sake of science, or at least that of our **animal friends**, without which any of that would not be possible.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+![x](/images/dalle3_ferret.jpeg)
 
-For more info
+
+Future Research Interests :mag:
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+As passionate as I may be about the subject of my current thesis, I have many other ideas inside my bucket list! Here are a few:
+- a data-driven deep spike sorter
+- towards BCIs (closed loop electrophysiology)
+- a compact AI based model of C. Elegans and Drosophiliae (both have a [completely mapped connectome](https://www.nature.com/articles/s41586-024-07968-y) now)
+- ...
+
+And in quite distant fields:
+- computational modeling of crowd behavior (see [Mehdi Moussaïd's work](https://scholar.google.com/citations?user=7R0KDB0AAAAJ&hl=en&oi=ao)
+- communicating with animals with deep learning (there are some [very cool groups and papers](https://www.projectceti.org/) working on this topic)
+- ...
+
+
+Other interests :jp:
+------
+**Interculturality** is as important in my life outside the lab than interdisciplinarity is for my research. This is why I am always very curious about other cultures, with a bias towards Asia so far. I can't help but love **far-East Asia**'s aesthetics, cuisine, and teas ! 
+Aside from traveling, **languages** are a great and fun way to dive into other countries, and they never fail to fascinate me.
+
+

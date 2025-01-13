@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-13T09:35:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ulysse’s academic webpage</title><subtitle>PhD student in computational neuroscience and neuromorphic computing</subtitle><author><name>Ulysse Rançon</name><email>ulysse.rancon@gmail.com</email></author><entry><title type="html">Learning new languages with ChatGPT</title><link href="http://localhost:4000/posts/2024/11/blog-post-2/" rel="alternate" type="text/html" title="Learning new languages with ChatGPT" /><published>2024-11-06T00:00:00+00:00</published><updated>2024-11-06T00:00:00+00:00</updated><id>http://localhost:4000/posts/2024/11/blog-post-2</id><content type="html" xml:base="http://localhost:4000/posts/2024/11/blog-post-2/"><![CDATA[<p>ChatGPT and other LLMs are continuously getting better. In around 2 years since its introduction, OpenAI’s assistant has done so much progress and is capable of multimodality, reasoning, and a never-ending list of impressive other things.
+Personally, it took me quite some time –more than a year– to start using these new tools consistently, and I still haven’t them fully integrated into my workflow. 
+What really convinced me was using them as a language teacher when I started learning Korean, and that’s the small story I want to share here.</p>
+
+<p><img src="/images/llms_vs_duolingo.png" alt="link" /></p>
+
+<h1 id="the-flaws-of-duolingo">The flaws of Duolingo</h1>
+<p>Because it’s so popular, I had to try Duolingo out of curiosity, and turned out very disappointed. Yes, in some part, language learning implies learning large amounts of vocabulary and rules by heart. But by trying to draw bridges between words and understand the logic, it becomes much easier to remember, and that’s something that I don’t think Duolingo encourages to do.
+Instead, learning on Duolingo is “brute force” and mainly consists in learning unrelated words in an unsupervised manner: no proper grammar lesson or explanation are provided, as far as I know or at least as far as I made it. 
+Furthermore, we also often hear about the “gamification” as a positive thing, encouraging the user to learn more. But for me, learning languages is not about being better and knowing more words than others! This also ends up with <em>people learning more vocabulary than what they can actually and reasonably ingest in a day</em>!
+In a nutshell, I have the feeling that everything in <strong>Duolingo is short, rather than long-term</strong>s (how it should be!).</p>
+
+<h1 id="enters-chatgpt">Enters ChatGPT</h1>
+
+<p>So when I started learning Korean, I had the idea of using the free version of ChatGPT as a coach, just to see, thinking it could give me appropriate advice given that I already knew some Japanese and that both languages are related. <em>“After all, he’s an expert at languages much more than I am, so why not give it a try ?”</em>, I thought. It turned out to be an amazing personal teacher, fitting in the palm of my hands and available at any time !
+You know a sentence but would like to better understand its syntactic strucure, in which tense the verbs are, who’s the subject, etc. ? No problem ! Want to have a small lesson on a praticular grammar point, e.g. make adjectives out of adverbs ? Sure ! Want this lesson to be much more detailed ? Can do !</p>
+
+<p>And at the time, OpenAI’s so-called voice mode was not yet available, so I cannot imagine the crazy role-playing that is now possible for oral practice…
+Here is my very first (fall 2024) conversation with chatGPT on this topic, you’ll be impressed. <a href="/files/ChatGPT_korean_teacher.pdf">I hope it can give you some ideas!</a></p>
+
+<h1 id="very-personal-roadmap-for-learning-languages-with-llms">(Very personal) roadmap for learning languages with LLMs</h1>
+<p>Of course this roadmap will be more adapted to some people than others.</p>
+<ul>
+  <li>In any case, I heavily recommend getting some <strong>essential vocabulary first</strong> and practice it everyday with flashcard applications such as <a href="https://apps.ankiweb.net/">Anki</a> (free, no ads and open-source). You can even ask your favorite LLM for a vocabulary list if you don’t know what to learn first.</li>
+  <li>In this essential vocabulary list, you’ll probably encounter some <strong>verbs</strong> (“to eat”, “to read”, “to be”, etc.), which you will have to <strong>conjugate in present, past and future tenses</strong></li>
+  <li>Now you know roughly how to conjugate. Try to describe objects and people more specifically with <strong>adjectives</strong> !</li>
+  <li>From these adjectives, make <strong>adverbs</strong> that will <em>modulate the meaning of your verbs</em>.</li>
+  <li>…</li>
+</ul>
+
+<p>Ask your favorite LLM themed lessons, e.g. how to count, how to greet, etc. Think about a new theme everyday and get creative !
+Exercise-wise, you can ask for texts with words to fill in, sentences to translate both ways, etc. Imagination is your only limit. 
+Again, so much better than DuoLingo…</p>
+
+<h1 id="there-are-things-that-llms-cannot-do-by-essence">There are things that LLMs cannot do by essence</h1>
+<p>Maybe controversial claim here. But if they appear to be great tools for language learning, I still think they do not -and won’t- fully replace some that are already available.</p>
+
+<p>First, <strong>motivation</strong>. The primary objective in learning a language is to communicate with other people, and even if LLMs can now perfectly simulate them, it’s that human contact that will incentivize you to continue studying! In my case with Korean, I still attend to weekly lessons with a human teacher. It shows me that this language that I am learning can be used in reality, with simple and practical applications. ChatGPT just coaches me in-between lessons! Of course, there’s nothing better than talking with natives.</p>
+
+<p>Second, <strong>human-made content</strong>. For the same reason as just above, movies or music clips may be more relatable than AI-made content. So for me, learning by</p>
+
+<p>Third, <strong>textbooks</strong>. Many very talented people have spent years into thinking how to best present new language concepts. ChatGPT is certainly way more skilled than I am at teach languages, but it’s not been trained specifically for this. In my opinion, textbooks remain a very good base material.</p>
+
+<p><em>Ultimately, I would recommend to try and use as many different types of base materials as possible, for the most effective memorization, in terms of speed, quantity and duration.</em></p>]]></content><author><name>Ulysse Rançon</name><email>ulysse.rancon@gmail.com</email></author><category term="AI" /><category term="language" /><summary type="html"><![CDATA[ChatGPT and other LLMs are continuously getting better. In around 2 years since its introduction, OpenAI’s assistant has done so much progress and is capable of multimodality, reasoning, and a never-ending list of impressive other things. Personally, it took me quite some time –more than a year– to start using these new tools consistently, and I still haven’t them fully integrated into my workflow. What really convinced me was using them as a language teacher when I started learning Korean, and that’s the small story I want to share here.]]></summary></entry><entry><title type="html">Personal pick of best YouTube science channels</title><link href="http://localhost:4000/posts/2024/11/blog-post-1/" rel="alternate" type="text/html" title="Personal pick of best YouTube science channels" /><published>2024-11-05T00:00:00+00:00</published><updated>2024-11-05T00:00:00+00:00</updated><id>http://localhost:4000/posts/2024/11/blog-post-1</id><content type="html" xml:base="http://localhost:4000/posts/2024/11/blog-post-1/"><![CDATA[<p>Despite all of its flaws, YouTube is a great place for scientific content creators to share their work, and for us to enjoy.
+This is non-exhaustive personal selection of my favorite science channels and videos.
+I am missing other great channels for sure ! I still hope you’ll like it! :)
+<img src="/images/artem_kirsanov_miniature.png" alt="Editing a markdown file for a talk" /></p>
+
+<h1 id="english">English</h1>
+<ul>
+  <li><a href="https://www.youtube.com/@3blue1brown">3Blue1Brown</a>:
+You probably already know this channel. It’s THE math channel. Crystal clear explanations and lessons for everyone, with great animations.</li>
+  <li><a href="https://www.youtube.com/@ArtemKirsanov">Artem Kirsanov</a>:
+A rather recent channel that I just discovered. In a nutshell, the 3B1B of computational neuroscience.</li>
+  <li><a href="https://www.youtube.com/@ritvikmath">RitvikMath</a>:
+A channel that saved my life in college. I come back to it every now and then. A lot of data science content and great energy.</li>
+  <li><a href="https://www.youtube.com/@upandatom/">Up and Atom</a>
+A Very nice and well-known physics channel. Less technical than other recommendations in this list, but just as enjoyable!</li>
+  <li><a href="https://www.youtube.com/@EricRowland">Eric Rowland</a>:
+A less famous, but not less excellent math content creator. Very few uploads, but real gems every time.</li>
+  <li><a href="https://www.youtube.com/@Mutual_Information">MutualInformation</a>
+Very refreshing deep learning and numerical analysis.</li>
+  <li>…</li>
+</ul>
+
+<h2 id="french">French</h2>
+<ul>
+  <li><a href="https://www.youtube.com/@ScienceEtonnante">ScienceEtonnante</a>
+My favourite best generalist vulgarization channel.</li>
+  <li><a href="https://www.youtube.com/@Fouloscopie">Fouloscopie</a>
+A channel hold by an academic researcher on computational crowd behavior modeling. EXTREMELY inspiring and interdisciplinary.</li>
+  <li><a href="https://www.youtube.com/@MonsieurPhi">MrPhi</a>
+A famous philosophy channel.</li>
+  <li><a href="https://www.youtube.com/@HygieneMentale">Hygiène Mentale</a>
+The go-to channel to discover “zététique”, i.e. modern scientific skepticism</li>
+  <li><a href="https://www.youtube.com/@TroncheEnBiais">La Tronche en Biais</a>
+Another “zététique” channel with more content (debates, live streams, news, etc.)</li>
+  <li>…</li>
+</ul>
+
+<h2 id="nerdy-phd-humor">Nerdy PhD humor</h2>
+<ul>
+  <li><a href="https://www.youtube.com/@xkcd_whatif">xkcd what if</a>
+Ask nonsense questions and answer them with science. If you like this content, buy Randall Munroe’s book!</li>
+  <li><a href="https://www.youtube.com/@CGPGrey">CGP grey</a>
+A bunch of very fun and nerdy videos.
+-<a href="https://www.youtube.com/@MrPSolver">MrPSolver</a>
+You can try and watch the <a href="https://www.youtube.com/watch?v=gdMbJ8vTcZw">“Publishing a scientific paper be like…”</a> video for this one.</li>
+  <li>…</li>
+</ul>]]></content><author><name>Ulysse Rançon</name><email>ulysse.rancon@gmail.com</email></author><category term="vulgarization" /><category term="science" /><summary type="html"><![CDATA[Despite all of its flaws, YouTube is a great place for scientific content creators to share their work, and for us to enjoy. This is non-exhaustive personal selection of my favorite science channels and videos. I am missing other great channels for sure ! I still hope you’ll like it! :)]]></summary></entry></feed>
