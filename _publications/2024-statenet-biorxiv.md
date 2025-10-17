@@ -5,10 +5,10 @@ category: manuscripts
 permalink: /publication/2024-statenet-biorxiv
 excerpt: 'Using and reverse-engineering deep gated RNNs as auditory neural response models'
 date: 2025-01-09
-venue: 'bioRxiv'
+venue: 'Communications Biology'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://www.biorxiv.org/content/10.1101/2025.01.08.631909v2'
-citation: 'Rançon et al. (2025). &quot;Temporal recurrence as a general mechanism to explain neural responses in the auditory system.&quot; <i>BioRxiv</i>; doi: https://doi.org/10.1101/2025.01.08.631909'
+paperurl: 'https://doi.org/10.1038/s42003-025-08858-3'
+citation: 'Rançon et al. (2025). &quot;Temporal recurrence as a general mechanism to explain neural responses in the auditory system.&quot; <i>Communications biology</i>; doi: 10.1038/s42003-025-08858-3'
 ---
 
 

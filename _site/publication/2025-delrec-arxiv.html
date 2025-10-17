@@ -19,7 +19,7 @@
 
 
 
-<title>StereoSpike: Depth Learning With a Spiking Neural Network - Ulysse’s academic webpage</title>
+<title>DelRec: learning delays in recurrent spiking neural networks - Ulysse’s academic webpage</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Ulysse's academic webpage">
-<meta property="og:title" content="StereoSpike: Depth Learning With a Spiking Neural Network">
+<meta property="og:title" content="DelRec: learning delays in recurrent spiking neural networks">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/2022-stereospike-ieee">
-  <meta property="og:url" content="http://localhost:4000/publication/2022-stereospike-ieee">
+  <link rel="canonical" href="http://localhost:4000/publication/2025-delrec-arxiv">
+  <meta property="og:url" content="http://localhost:4000/publication/2025-delrec-arxiv">
 
 
 
-  <meta property="og:description" content="Stereo depth estimation from event cameras with a SNN">
+  <meta property="og:description" content="An efficient algorithm to learn delays in recurrent spiking neural networks with surrogate gradients">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2022-12-02T00:00:00+00:00">
+  <meta property="article:published_time" content="2025-09-29T00:00:00+00:00">
 
 
 
@@ -270,31 +270,32 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="StereoSpike: Depth Learning With a Spiking Neural Network">
-    <meta itemprop="description" content="Stereo depth estimation from event cameras with a SNN">
-    <meta itemprop="datePublished" content="December 02, 2022">
+    <meta itemprop="headline" content="DelRec: learning delays in recurrent spiking neural networks">
+    <meta itemprop="description" content="An efficient algorithm to learn delays in recurrent spiking neural networks with surrogate gradients">
+    <meta itemprop="datePublished" content="September 29, 2025">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">StereoSpike: Depth Learning With a Spiking Neural Network
+          <h1 class="page__title" itemprop="headline">DelRec: learning delays in recurrent spiking neural networks
 </h1>
           
         
         
         
-          <p>Published in <i>IEEE Access</i>, 2022 </p>
+          <p>Published in <i>arXiv</i>, 2025 </p>
             
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>Depth estimation is an important computer vision task, useful in particular for navigation in autonomous vehicles, or for object manipulation in robotics. Here, we propose to solve it using StereoSpike, an end-to-end neuromorphic approach, combining two event-based cameras and a Spiking Neural Network (SNN) with a modified U-Net-like encoder-decoder architecture. More specifically, we used the Multi Vehicle Stereo Event Camera Dataset (MVSEC). It provides a depth ground-truth, which was used to train StereoSpike in a supervised manner, using surrogate gradient descent. We propose a novel readout paradigm to obtain a dense analog prediction–the depth of each pixel– from the spikes of the decoder. We demonstrate that this architecture generalizes very well, even better than its non-spiking counterparts, leading to near state-of-the-art test accuracy. To the best of our knowledge, it is the first time that such a large-scale regression problem is solved by a fully spiking neural network. Finally, we show that very low firing rates (&lt; 5%) can be obtained via regularization, with a minimal cost in accuracy. This means that StereoSpike could be efficiently implemented on neuromorphic chips, opening the door for low power and real time embedded systems.</p>
+        <p>Spiking neural networks (SNNs) are a bio-inspired alternative to conventional real-valued deep learning models, with the potential for substantially higher energy efficiency. Interest in SNNs has recently exploded due to a major breakthrough: surrogate gradient learning (SGL), which allows training SNNs with backpropagation, strongly outperforming other approaches. In SNNs, each synapse is characterized not only by a weight but also by a transmission delay. While theoretical works have long suggested that trainable delays significantly enhance expressivity, practical methods for learning them have only recently emerged. Here, we introduce ``DelRec’’, the first SGL-based method to train axonal or synaptic delays in recurrent spiking layers, compatible with any spiking neuron model. DelRec leverages a differentiable interpolation technique to handle non-integer delays with well-defined gradients at training time. We show that SNNs with trainable recurrent delays outperform feedforward ones, leading to new state-of-the-art (SOTA) on two challenging temporal datasets (Spiking Speech Command, an audio dataset, and Permuted Sequential MNIST, a vision one), and match the SOTA on the now saturated Spiking Heidelberg Digit dataset using only vanilla Leaky-Integrate-and-Fire neurons with stateless (instantaneous) synapses. Our results demonstrate that recurrent delays are critical for temporal processing in SNNs and can be effectively optimized with DelRec, paving the way for efficient deployment on neuromorphic hardware with programmable delays. Our code is available at https://github.com/alexmaxad/DelRec.</p>
+
 
 
         
-          <p style="font-size: smaller">Recommended citation: Rançon et al. (2022). &quot;StereoSpike: Depth Learning with a Spiking Neural Network.&quot; <i>IEEE Access</i>; doi: 10.1109/ACCESS.2022.3226484<br /><a href="https://ieeexplore.ieee.org/document/9969606">Download Paper</a></p>
+          <p style="font-size: smaller">Recommended citation: Quéant et al. (2025). &quot;DelRec: learning delays in recurrent spiking neural networks.&quot; <i>ArXiv</i>; doi: https://doi.org/10.48550/arXiv.2509.24852<br /><a href="https://arxiv.org/abs/2509.24852">Download Paper</a></p>
         
 
         
@@ -339,11 +340,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/2022-stereospike-ieee" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/2025-delrec-arxiv" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/2022-stereospike-ieee" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/2025-delrec-arxiv" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/2022-stereospike-ieee" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/2025-delrec-arxiv" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -351,11 +352,11 @@
 
   <nav class="pagination">
     
-      <a href="#" class="pagination--pager disabled">Previous</a>
+      <a href="http://localhost:4000/publication/2025-ising-arxiv" class="pagination--pager" title="Dreaming up scale invariance via inverse renormalization group
+">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/2023-opticflow-frontiers" class="pagination--pager" title="Optical flow estimation from event-based cameras and spiking neural networks
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
